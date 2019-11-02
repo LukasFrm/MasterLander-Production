@@ -1,0 +1,42 @@
+{
+  "name": "3question-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "jquery": "^3.4.1",
+    "rc-progress": "^2.5.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-fade-in": "^0.1.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-sticky-footer": "0.1.0-rc3",
+    "reactstrap": "^8.1.1"
+  },
+  "scripts": {
+    "start": "set PORT=8080 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
